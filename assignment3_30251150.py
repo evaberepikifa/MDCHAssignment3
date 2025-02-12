@@ -50,7 +50,6 @@ print(f"Best parameters: eps={best_params[0]:.1f}, min_samples={best_params[1]}"
 print(f"Best ARI: {best_score:.3f}")
 print(best_labels)
 
-
 #Dbscan with best parameters (eps= 0.2 and min_samples = 10)
 best_eps = 0.2
 best_min_samples = 10
